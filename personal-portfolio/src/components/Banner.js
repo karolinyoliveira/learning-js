@@ -82,8 +82,7 @@ export const Banner = () => {
                   </h1>
                   <p>
                     Queria poder manifestar todo meu carinho por você te
-                    enchendo de beijinhos nesse dia tão especial, mas como você
-                    mesmo diz, essas ...
+                    enchendo de beijinhos nesse dia tão especial, mas te trouxe essa florzinha virtual aqui pra te mostrar que nosso amor floresce em qualquer dimensão.
                   </p>
                 </div>
               )}
