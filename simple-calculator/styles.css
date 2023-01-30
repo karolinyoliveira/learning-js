@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  padding: 0 -50%;
+  margin: 0 -0%;
+  background: linear-gradient(to top right, rgb(1, 36, 36), rgb(6, 117, 121));
+  position: relative;
+}
+
+.calc-grid {
+  display: grid;
+  width: 450px;
+  height: 80%;
+  overflow: auto;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  background-color: rgb(38, 38, 38);
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calc-grid > button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 5px solid rgb(38, 38, 38);
+  outline: none;
+  background-color: rgb(199, 196, 196);
+}
+
+.calc-grid > button:hover {
+  font-weight: bold;
+  background-color: rgb(166, 166, 166);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.equal {
+  display: grid;
+  min-height: 10vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(1, 200px);
+  grid-template-rows: minmax(100px, auto);
+
+  grid-column: span 2;
+}
+
+.equal > button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 5px solid rgb(38, 38, 38);
+  outline: none;
+  background-color: rgb(225, 116, 7);
+}
+
+.equal > button:hover {
+  font-weight: bold;
+  background-color: rgb(187, 98, 9);
+}
+
+.ans {
+  border-radius: 20px;
+  margin-bottom: 4%;
+  grid-column: 1/-1;
+  background-color: rgb(128, 175, 204);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: azure;
+}
+
+.ans .curr {
+  color: azure;
+  font-size: 2.5rem;
+}
+
+.ans .prev {
+  color: rgb(200, 219, 219);
+  font-size: 1.5rem;
+}
