@@ -51,35 +51,35 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={feather} alt="Image" />
+                  <img src={feather} alt="ther" />
                   <h5>Deixa meus dias mais leves</h5>
                 </div>
                 <div className="item">
-                  <img src={gift} alt="Image" />
+                  <img src={gift} alt="gift" />
                   <h5>É muito boa com presentes</h5>
                 </div>
                 <div className="item">
-                  <img src={laugh} alt="Image" />
+                  <img src={laugh} alt="augh" />
                   <h5>Ri das minhas piadas ruins</h5>
                 </div>
                 <div className="item">
-                  <img src={bear} alt="Image" />
+                  <img src={bear} alt="bear" />
                   <h5>Fica pertinho, mesmo quando estamos longe</h5>
                 </div>
                 <div className="item">
-                  <img src={peach} alt="Image" />
+                  <img src={peach} alt="each" />
                   <h5>É uma goxtosa</h5>
                 </div>
                 <div className="item">
-                  <img src={spaghetti} alt="Image" />
+                  <img src={spaghetti} alt="etti" />
                   <h5>Faz comidinhas cheias de amor</h5>
                 </div>
                 <div className="item">
-                  <img src={care} alt="Image" />
+                  <img src={care} alt="care" />
                   <h5>Tem carinho e cuidado com tudo em mim</h5>
                 </div>
                 <div className="item">
-                  <img src={peach} alt="Image" />
+                  <img src={peach} alt="each" />
                   <h5>Enche meus dias de dengo</h5>
                 </div>
               </Carousel>
