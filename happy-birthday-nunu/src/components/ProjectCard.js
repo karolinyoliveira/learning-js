@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import museu from "../assets/img/museu.jpeg";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
